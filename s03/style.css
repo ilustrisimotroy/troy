@@ -1,0 +1,26 @@
+h1 {
+    color: crimson;
+}
+
+/* ID Selector */
+#title-1 {
+    color: rgb(19, 209, 252);
+}
+
+/* Class Selector */
+.title-2 {
+    color: rgb(182, 41, 185);
+    text-align: center;
+}
+
+@media only screen and (min-width: 500px) {
+    .screen {
+        background-color: pink;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .screen {
+        background-color: blue;
+    }
+}
