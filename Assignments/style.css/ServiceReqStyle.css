@@ -78,6 +78,11 @@ form .user_details .input_box {
     border-radius: 5px;
     border-bottom-width: 2px;
     margin: 15px 0 15px;
+    font-weight: bold;
+}
+
+select option {
+    font-weight: bold;
 }
 
 .location textarea {
