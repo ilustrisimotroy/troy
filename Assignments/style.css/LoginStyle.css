@@ -1,3 +1,4 @@
+/* Design of body Page */
 body {
     padding: 0;
     margin: 0;
@@ -7,6 +8,7 @@ body {
     overflow: hidden;
 }
 
+/* Class Center */
 .center {
     position: absolute;
     top: 50%;

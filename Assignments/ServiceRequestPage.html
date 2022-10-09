@@ -9,9 +9,14 @@
     <title>Service Request Page</title>
 </head>
 <body>
+
+    <!-- Container Form -->
     <div class="center">
+        <!-- Title of the Form -->
         <h1>ABC Company IT Support Request Form</h1>
         <form action="#">
+
+            <!-- Input boxes -->
             <div class="user_details">
                 <div class="input_box">
                     <label for="fName">First Name</label>
@@ -56,6 +61,7 @@
                         </select>
                     </div>
                     Request Decription :
+                    <!-- Text Area -->
                     <div>
                         <textarea name="" id="" cols="30" rows="10" placeholder="Explain your service request as details as possible."></textarea>
                     </div>
@@ -64,11 +70,19 @@
                 Upload a picture screenshot for reference: 
                 <input type="file">    
             </p>
-            <input type="submit" value="Submit">
-            <input type="reset" value="Reset">
-            <input type="reset" value="Go to Tables" style="float: right;">
+            <!-- Buttons -->
+            <button type="submit" value="Submit">Submit</button>
+            <button type="reset" value="Reset">Reset</button>
+            <button onclick="tablePage()" type="reset" value="Go to Tables" style="float: right;">Go To Tables</button>
 
         </form>
     </div>
+
+    <script>
+        // Go to table function button
+        function tablePage() {
+                    window.location = "TablePage.html"; // Redirecting to other page.
+                }
+    </script>
 </body>
 </html>
